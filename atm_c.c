@@ -17,7 +17,7 @@ void atm_menu() {
     load_accounts(&accounts, &acc_count);
     int choice;
     while (1) {
-        printf("\n--- ATM Main Menu ---\n");
+        printf("\n--- ATM Main Menu ---\n"); //
         printf("1. Login\n2. Create Account\n3. Admin Mode\n0. Exit\n");
         choice = get_int("Select option: ");
         if (choice == 1) {
